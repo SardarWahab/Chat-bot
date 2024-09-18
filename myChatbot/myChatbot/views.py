@@ -3,6 +3,7 @@ from django.contrib import messages
 
 def home(request):
     return render(request, 'index.html')
+
 from .chatbot import get_ai_answer
 def chatbot(request):
     if request. method == 'POST':
