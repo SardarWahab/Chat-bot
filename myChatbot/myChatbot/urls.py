@@ -8,3 +8,4 @@ urlpatterns = [
     path('',home ,name='home'),
     path('chat/',chatbot, name='chatbot')
 ]
+
